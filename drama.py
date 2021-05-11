@@ -28,3 +28,40 @@ plt.ylabel('시청률')
 plt.xlabel('드라마 프로그램')
 plt.suptitle('04월 26일주 평균 드라마 시청률')
 plt.show()
+
+list.pop(5)
+list.pop(6)
+list.pop(6)
+list.pop(8)
+list.pop(8)
+list.pop(8)
+list.pop(8)
+list.pop(8)
+list.pop(9)
+list.pop(9)
+list.pop(9)
+
+list3.pop(5)
+list3.pop(6)
+list3.pop(6)
+list3.pop(8)
+list3.pop(8)
+list3.pop(8)
+list3.pop(8)
+list3.pop(8)
+list3.pop(9)
+list3.pop(9)
+list3.pop(9)
+
+
+import matplotlib.pyplot as plt
+people=list3
+x=[1,2,3,4,5,6,7,8,9]
+plt.rc('font', family='Malgun Gothic')
+title=list
+plt.plot(x,people,label=title, c='r',lw=3)
+plt.xticks(x,title,rotation='vertical')
+plt.ylabel('시청률')
+plt.xlabel('드라마 프로그램')
+plt.suptitle('04월 26일주 평균 드라마 시청률')
+plt.show()
