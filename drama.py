@@ -52,8 +52,8 @@ list3.pop(8)
 list3.pop(9)
 list3.pop(9)
 list3.pop(9)
-
-
+print(list)
+print(list3)
 import matplotlib.pyplot as plt
 people=list3
 x=[1,2,3,4,5,6,7,8,9]
